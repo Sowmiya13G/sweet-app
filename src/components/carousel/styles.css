@@ -1,0 +1,37 @@
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: auto;
+    background-color: aqua;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+  
+  /* Optional: Adding transition for smooth sliding effect */
+  .carousel-slide:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Optional: Add some styling for loading and error states */
+  .carousel-loading,
+  .carousel-error {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  

@@ -47,6 +47,15 @@
   color: #007bff;
 }
 
+.carousel-list{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px; 
+  margin: auto;
+  background-color: aqua;
+}
+
 /* Large devices: display list in a single row */
 @media (min-width: 1200px) {
   .footer-list {

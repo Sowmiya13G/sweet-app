@@ -1,0 +1,23 @@
+.home-footer {
+    /* background-color: #f8f9fa; */
+    padding: 20px;
+    text-align: center;
+    /* border-top: 1px solid #dee2e6; */
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+}
